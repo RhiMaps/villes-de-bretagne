@@ -74,7 +74,7 @@ function filterCity(popMin){
         var show=false;
         if( feature.properties && feature.properties.population)
         {
-            show = feature.properties.population > popMin;
+            show = parseInt(feature.properties.population) > parseInt(popMin);
         }
         return  show;
     };
@@ -103,59 +103,50 @@ function showLayers(popMin){
     console.log(popMin);
 
 
-    //mymap.removeControl(layersControl);
-
-    for (var [layerName, layerLayer] of allLayers)
+    for (var [layerName, layerData] of allLayers)
     {
-        console.log(layerName + " goes removing" );
-        if(mymap.hasLayer(layerLayer)){
-            console.log("map has layer"+layerName+" removing");
-            layersControl.removeLayer(layerLayer);
-        }else{
-            console.log("not removing unknown layer "+layerName);
+        if(mymap.hasLayer(layerData)){
+            mymap.removeLayer(layerData);
+            layersControl.removeLayer(layerData);
         }
     }
 
 
 
-    allLayers["Towns"] = new L.geoJson(town, {
+    allLayers.set("Towns",  new L.geoJson(town, {
         pointToLayer: pointToLayer,
         filter: filterCity(popMin),
         onEachFeature: onEachFeature
-    }).addTo(mymap)
+    }));
 
-    allLayers["Villages"] = new L.geoJson(village, {
+    allLayers.set("Villages",  new L.geoJson(village, {
         pointToLayer: pointToLayer,
         filter: filterCity(popMin),
         onEachFeature: onEachFeature
-    }).addTo(mymap)
+    }));
 
-    allLayers["Cities"] = new L.geoJson(city, {
+    allLayers.set("Cities",  new L.geoJson(city, {
         pointToLayer: pointToLayer,
         filter: filterCity(popMin),
         onEachFeature: onEachFeature
-    }).addTo(mymap)
+    }));
 
-    allLayers["Lycees"] = new L.geoJson(lycees, {
+    allLayers.set("Lycees",  new L.geoJson(lycees, {
         pointToLayer: pointToLayer,
         onEachFeature: onEachFeature
-    }).addTo(mymap)
+    }));
 
-    allLayers["LyceesG"] = new L.geoJson(LycGen, {
+    allLayers.set("LyceesG",  new L.geoJson(LycGen, {
         pointToLayer: pointToLayer,
         onEachFeature: onEachFeature
-    }).addTo(mymap)
+    }));
 
 
-    for (var [layerName, layerLayer] of allLayers)
+    for (var [layerName, layerData] of allLayers)
     {
-        console.log(layerName + " goes adding " );
-        if(! mymap.hasLayer(layerLayer)){
-            console.log("map doesent have layer"+layerName+" ...adding");
-            layersControl.addOverlay(layerLayer, layerName);
-            console.log("added?");
-        }else{
-            console.log("not adding already known layer"+layerName);
+        if(! mymap.hasLayer(layerData)){
+            mymap.addLayer(layerData);
+            layersControl.addOverlay(layerData, layerName);
         }
     }
 
@@ -174,16 +165,10 @@ mymap.on('zoomend', function(){
 */
 
 
-showLayers(100);
+showLayers(10000);
 
 
 $( "#populationBtn" ).click(function() {
     var pop = $("#populationInput").val();
-    console.log(pop);
     showLayers(pop);
-    //mymap.removeLayer(dataLayer);
-    //layersControl.removeLayer(dataLayer);
-    //dataLayer = makeLayer(city, 1, pop).addTo(mymap);
-    //mymap.addLayer(dataLayer);
-    //layersControl.addOverlay(dataLayer, "dataLayer"+num++);
 });
