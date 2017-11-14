@@ -1,0 +1,866 @@
+var town={
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-10-16T07:58:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691381",
+        "addr:postcode": "22000",
+        "capital": "6",
+        "is_in:country_code": "FR",
+        "name": "Saint-Brieuc",
+        "name:br": "Sant-Brieg",
+        "name:fr": "Saint-Brieuc",
+        "name:ja": "サン＝ブリユー",
+        "name:ru": "Сен-Бриё",
+        "place": "town",
+        "population": "46173",
+        "ref:FR:SIREN": "212202782",
+        "ref:INSEE": "22278",
+        "source:population": "INSEE 2014",
+        "website": "http://www.saint-brieuc.fr/",
+        "wikidata": "Q29234",
+        "wikipedia": "fr:Saint-Brieuc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7602707,
+          48.5141594
+        ]
+      },
+      "id": "node/26691381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691388",
+        "addr:postcode": "29100",
+        "name": "Douarnenez",
+        "name:br": "Douarnenez",
+        "name:fr": "Douarnenez",
+        "name:ru": "Дуарнене",
+        "place": "town",
+        "population": "14912",
+        "ref:FR:SIREN": "212900468",
+        "ref:INSEE": "29046",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3311243,
+          48.0944459
+        ]
+      },
+      "id": "node/26691388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691461",
+        "addr:postcode": "56600",
+        "name": "Lanester",
+        "name:br": "Lannarstêr",
+        "name:fr": "Lanester",
+        "place": "town",
+        "population": "22142",
+        "ref:FR:SIREN": "215600982",
+        "ref:INSEE": "56098",
+        "source:population": "INSEE 2012",
+        "wikidata": "Q71535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3444489,
+          47.7639726
+        ]
+      },
+      "id": "node/26691461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691507",
+        "addr:postcode": "56270",
+        "alt_name": "Ploemeur",
+        "name": "Plœmeur",
+        "name:br": "Plañvour",
+        "place": "town",
+        "population": "17805",
+        "ref:FR:SIREN": "215601626",
+        "ref:INSEE": "56162",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4270534,
+          47.7354591
+        ]
+      },
+      "id": "node/26691507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691511",
+        "addr:postcode": "22100",
+        "name": "Dinan",
+        "name:br": "Dinan",
+        "name:fr": "Dinan",
+        "place": "town",
+        "population": "10819",
+        "ref:FR:SIREN": "212200505",
+        "ref:INSEE": "22050",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.047687,
+          48.4539775
+        ]
+      },
+      "id": "node/26691511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691521",
+        "addr:postcode": "35400",
+        "name": "Saint-Malo",
+        "name:br": "Sant-Maloù",
+        "name:fr": "Saint-Malo",
+        "name:ko": "생말로",
+        "place": "town",
+        "population": "46342",
+        "ref:FR:SIREN": "213502883",
+        "ref:INSEE": "35288",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q163108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.015418,
+          48.6454528
+        ]
+      },
+      "id": "node/26691521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691583",
+        "addr:postcode": "29000",
+        "capital": "6",
+        "name": "Quimper",
+        "name:ar": "كامبار",
+        "name:bg": "Кемпер",
+        "name:br": "Kemper",
+        "name:cv": "Кемпер",
+        "name:cy": "Kemper",
+        "name:fa": "کمپر",
+        "name:fr": "Quimper",
+        "name:fr-x-norman": "Tchîmpèr",
+        "name:ga": "Kemper",
+        "name:gd": "Kemper",
+        "name:gv": "Kemper",
+        "name:ja": "カンペール",
+        "name:ka": "კემპერი",
+        "name:ko": "캥페르",
+        "name:kw": "Kemper",
+        "name:la": "Coriosopitum",
+        "name:lt": "Kempēras",
+        "name:lv": "Kempēra",
+        "name:mk": "Кемпер",
+        "name:mzn": "کویمپر",
+        "name:oc": "Kemper",
+        "name:ru": "Кемпер",
+        "name:sr": "Кемпер",
+        "name:uk": "Кемпер",
+        "name:zh": "坎佩尔",
+        "place": "town",
+        "population": "63550",
+        "ref:FR:SIREN": "212902324",
+        "ref:INSEE": "29232",
+        "source:population": "INSEE 2013",
+        "website": "http://www.mairie-quimper.fr/",
+        "wikidata": "Q342",
+        "wikipedia": "fr:Quimper"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1024782,
+          47.9960325
+        ]
+      },
+      "id": "node/26691583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691704",
+        "addr:postcode": "56100",
+        "capital": "7",
+        "name": "Lorient",
+        "name:br": "An Oriant",
+        "name:fr": "Lorient",
+        "name:ja": "ロリアン",
+        "place": "town",
+        "population": "57204",
+        "ref:INSEE": "56121",
+        "ref:SIREN": "215601212",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q71724"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3660907,
+          47.7477336
+        ]
+      },
+      "id": "node/26691704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691814",
+        "addr:country": "FR",
+        "addr:postcode": "22440",
+        "admin_level": "8",
+        "capital": "8",
+        "is_in:continent": "Europe",
+        "is_in:country": "France",
+        "is_in:country_code": "FR",
+        "is_in:departement": "Côtes-d'Armor",
+        "is_in:region": "Bretagne",
+        "name": "Ploufragan",
+        "name:br": "Ploufragan",
+        "name:fr": "Ploufragan",
+        "place": "town",
+        "population": "11376",
+        "population:date": "2010",
+        "ref:FR:SIREN": "212202154",
+        "ref:INSEE": "22215",
+        "website": "http://www.ploufragan.fr/",
+        "wikidata": "Q225204",
+        "wikipedia": "fr:Ploufragan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7934447,
+          48.4913857
+        ]
+      },
+      "id": "node/26691814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691854",
+        "addr:postcode": "29300",
+        "name": "Quimperlé",
+        "name:br": "Kemperle",
+        "place": "town",
+        "population": "11776",
+        "ref:FR:SIREN": "212902332",
+        "ref:INSEE": "29233",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5516222,
+          47.8690062
+        ]
+      },
+      "id": "node/26691854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691885",
+        "capital": "7",
+        "name": "Morlaix",
+        "name:be": "Морле",
+        "name:bg": "Морле",
+        "name:br": "Montroulez",
+        "name:cy": "Montroulez",
+        "name:fa": "مورلیکس",
+        "name:fr": "Morlaix",
+        "name:ja": "モルレー",
+        "name:kk": "Морле",
+        "name:kw": "Montroulez",
+        "name:la": "Mons Relaxus",
+        "name:mk": "Морле",
+        "name:oc": "Montroulez",
+        "name:ru": "Морле",
+        "name:sr": "Морле",
+        "name:uk": "Морле",
+        "name:zh": "莫尔莱",
+        "place": "town",
+        "population": "15421",
+        "postal_code": "29600",
+        "ref:FR:SIREN": "212901516",
+        "ref:INSEE": "29151",
+        "source:population": "INSEE 2013",
+        "website": "http://www.ville.morlaix.fr/",
+        "wikidata": "Q202368",
+        "wikipedia": "fr:Morlaix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8331972,
+          48.5824932
+        ]
+      },
+      "id": "node/26691885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692010",
+        "addr:postcode": "56700",
+        "name": "Hennebont",
+        "name:br": "Henbont",
+        "name:fr": "Hennebont",
+        "place": "town",
+        "population": "15191",
+        "ref:FR:SIREN": "215600834",
+        "ref:INSEE": "56083",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q71503"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2650587,
+          47.8052482
+        ]
+      },
+      "id": "node/26692010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692087",
+        "addr:postcode": "29900",
+        "name": "Concarneau",
+        "name:br": "Konk-Kerne",
+        "name:fr": "Concarneau",
+        "place": "town",
+        "population": "19048",
+        "ref:FR:SIREN": "212900393",
+        "ref:INSEE": "29039",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q17393"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9223889,
+          47.8757017
+        ]
+      },
+      "id": "node/26692087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692178",
+        "addr:postcode": "29490",
+        "name": "Guipavas",
+        "name:br": "Gwipavaz",
+        "name:fr": "Guipavas",
+        "place": "town",
+        "population": "13403",
+        "ref:FR:SIREN": "212900757",
+        "ref:INSEE": "29075",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.400979,
+          48.4346366
+        ]
+      },
+      "id": "node/26692178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692222",
+        "addr:postcode": "56300",
+        "name": "Pontivy",
+        "name:br": "Pondi",
+        "name:fr": "Pontivy",
+        "name:ru": "Понтиви",
+        "place": "town",
+        "population": "13693",
+        "ref:FR:SIREN": "215601782",
+        "ref:INSEE": "56178"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9675702,
+          48.0647729
+        ]
+      },
+      "id": "node/26692222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692331",
+        "addr:postcode": "56400",
+        "name": "Auray",
+        "name:br": "An Alre",
+        "name:fr": "Auray",
+        "name:ru": "Оре",
+        "place": "town",
+        "population": "12322",
+        "ref:FR:SIREN": "215600073",
+        "ref:INSEE": "56007",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9867031,
+          47.6660041
+        ]
+      },
+      "id": "node/26692331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692334",
+        "addr:postcode": "29800",
+        "name": "Landerneau",
+        "name:br": "Landerne",
+        "name:fr": "Landerneau",
+        "place": "town",
+        "population": "15272",
+        "ref:FR:SIREN": "212901037",
+        "ref:INSEE": "29103",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q325946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2557901,
+          48.4514803
+        ]
+      },
+      "id": "node/26692334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692356",
+        "addr:postcode": "29280",
+        "name": "Plouzané",
+        "name:br": "Plouzane",
+        "place": "town",
+        "population": "11717",
+        "ref:FR:SIREN": "212902126",
+        "ref:INSEE": "29212",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6212044,
+          48.3817165
+        ]
+      },
+      "id": "node/26692356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692398",
+        "addr:country": "FR",
+        "addr:postcode": "22190",
+        "admin_level": "8",
+        "capital": "8",
+        "name": "Plérin",
+        "name:br": "Plerin",
+        "name:fr": "Plérin",
+        "place": "town",
+        "population": "13788",
+        "population:date": "2010",
+        "ref:FR:SIREN": "212201875",
+        "ref:INSEE": "22187",
+        "source:population": "INSEE",
+        "website": "http://www.ville-plerin.fr/",
+        "wikidata": "Q214598",
+        "wikipedia": "fr:Plérin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7695752,
+          48.5348817
+        ]
+      },
+      "id": "node/26692398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26694508",
+        "addr:postcode": "35600",
+        "name": "Redon",
+        "name:br": "Redon",
+        "name:fr": "Redon",
+        "place": "town",
+        "population": "9592",
+        "ref:FR:SIREN": "213502362",
+        "ref:INSEE": "35236",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0824145,
+          47.6571027
+        ]
+      },
+      "id": "node/26694508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26695638",
+        "addr:postcode": "35800",
+        "name": "Dinard",
+        "name:br": "Dinarzh",
+        "name:uk": "Дінар",
+        "place": "town",
+        "population": "10579",
+        "ref:INSEE": "35093",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q131600",
+        "wikipedia": "fr:Dinard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0584211,
+          48.6251435
+        ]
+      },
+      "id": "node/26695638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26695781",
+        "addr:postcode": "29400",
+        "name": "Landivisiau",
+        "name:br": "Landivizio",
+        "name:fr": "Landivisiau",
+        "place": "town",
+        "population": "9167",
+        "ref:FR:SIREN": "212901052",
+        "ref:INSEE": "29105",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0699356,
+          48.5127551
+        ]
+      },
+      "id": "node/26695781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26696276",
+        "addr:postcode": "56890",
+        "name": "Saint-Avé",
+        "name:br": "Sant-Teve",
+        "name:fr": "Saint-Avé",
+        "place": "town",
+        "population": "10385",
+        "ref:FR:SIREN": "215602061",
+        "ref:INSEE": "56206",
+        "source:population": "INSEE 2009",
+        "wikidata": "Q128043",
+        "wikipedia": "fr:Saint-Avé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7358875,
+          47.6903849
+        ]
+      },
+      "id": "node/26696276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26697461",
+        "addr:postcode": "22400",
+        "name": "Lamballe",
+        "name:br": "Lambal",
+        "name:fr": "Lamballe",
+        "place": "town",
+        "population": "12098",
+        "ref:FR:SIREN": "212200935",
+        "ref:INSEE": "22093",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5174411,
+          48.4688058
+        ]
+      },
+      "id": "node/26697461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/116359720",
+        "addr:postcode": "GY1",
+        "capital": "yes",
+        "is_in": "Guernsey",
+        "name": "Saint Peter Port",
+        "name:en": "Saint Peter Port",
+        "name:fr": "Saint-Pierre-Port",
+        "name:lt": "Sent Piter Portas",
+        "name:pl": "Saint Peter Port",
+        "name:uk": "Сент-Пітер-Порт",
+        "name:zh": "聖彼得港",
+        "note": "This is the location of Saint James Assembly Hall, a municipal annex for ceremonies (such as weddings). Better location would be at the building of La Cohue, part of the Royal Court House of Guernsey, currently missing on map.",
+        "place": "town",
+        "population": "18207",
+        "population:date": "2014",
+        "source": "knowledge",
+        "wikidata": "Q174262",
+        "wikipedia": "en:Saint Peter Port"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5389979,
+          49.4568142
+        ]
+      },
+      "id": "node/116359720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/297180485",
+        "addr:postcode": "29470",
+        "name": "Plougastel-Daoulas",
+        "name:br": "Plougastell-Daoulaz",
+        "place": "town",
+        "population": "13178",
+        "ref:FR:SIREN": "212901896",
+        "ref:INSEE": "29189",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q383277",
+        "wikipedia": "fr:Plougastel-Daoulas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.369679,
+          48.3742317
+        ]
+      },
+      "id": "node/297180485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1362045879",
+        "name": "Le Relecq-Kerhuon",
+        "name:br": "Ar Releg-Kerhuon",
+        "place": "town",
+        "population": "11323",
+        "ref:INSEE": "29235"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3965573,
+          48.4075514
+        ]
+      },
+      "id": "node/1362045879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1578261169",
+        "name": "Guérande",
+        "name:br": "Gwenrann",
+        "name:fr": "Guérande",
+        "place": "town",
+        "population": "16499",
+        "postal_code": "44350",
+        "ref:FR:SIREN": "214400699",
+        "ref:INSEE": "44069",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q501971"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4298014,
+          47.3282126
+        ]
+      },
+      "id": "node/1578261169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1584402899",
+        "addr:postcode": "44500",
+        "alt_name": "La Baule",
+        "name": "La Baule-Escoublac",
+        "name:br": "Ar Baol-Skoubleg",
+        "name:fr": "La Baule-Escoublac",
+        "place": "town",
+        "population": "16193",
+        "population:date": "2009",
+        "ref:FR:SIREN": "214400558",
+        "ref:INSEE": "44055",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q213481"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3951595,
+          47.2843726
+        ]
+      },
+      "id": "node/1584402899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1681903701",
+        "addr:postcode": "56000",
+        "capital": "6",
+        "name": "Vannes",
+        "name:br": "Gwened",
+        "name:fr": "Vannes",
+        "name:ja": "ヴァンヌ",
+        "name:la": "Darioritum",
+        "name:ru": "Ванн",
+        "place": "town",
+        "population": "52515",
+        "ref:FR:SIREN": "215602608",
+        "ref:INSEE": "56260",
+        "reg_name": "Gwened",
+        "source:population": "INSEE 2013",
+        "website": "http://www.mairie-vannes.fr/",
+        "wikidata": "Q6593",
+        "wikipedia": "fr:Vannes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7599079,
+          47.6586772
+        ]
+      },
+      "id": "node/1681903701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1872239980",
+        "addr:postcode": "22300",
+        "name": "Lannion",
+        "name:ar": "لانيون",
+        "name:br": "Lannuon",
+        "name:fr": "Lannion",
+        "name:ru": "Ланьон",
+        "place": "town",
+        "population": "20079",
+        "ref:INSEE": "22113",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q207581"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4589104,
+          48.7322804
+        ]
+      },
+      "id": "node/1872239980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2615659255",
+        "name": "St. Saviour",
+        "place": "town",
+        "population": "13580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0791301,
+          49.1964567
+        ]
+      },
+      "id": "node/2615659255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2615659256",
+        "capital": "yes",
+        "name": "Saint Helier",
+        "name:en": "Saint Helier",
+        "name:fr": "Saint-Hélier",
+        "name:pl": "Saint Helier",
+        "name:pt": "Santo Helério",
+        "name:ru": "Сент-Хелиер",
+        "name:zh": "聖赫利爾",
+        "place": "town",
+        "population": "32522",
+        "population:date": "2011",
+        "wikidata": "Q147738",
+        "wikipedia": "en:Saint Helier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1102277,
+          49.1856637
+        ]
+      },
+      "id": "node/2615659256"
+    }
+  ]
+}
