@@ -177,16 +177,13 @@ mymap.on('zoomend', function(){
 showLayers(100);
 
 
-var app = angular.module("app", []);
-
-
-app.controller("myCtrl", function($scope){
-    $scope.display=function() {
-//        $scope.nameOut = $scope.nameIn;
-//        $scope.nameOut = "you";
-//        alert($scope.nameIn);
-    showLayers($scope.popMin);
-    }
-
+$( "#populationBtn" ).click(function() {
+    var pop = $("#populationInput").val();
+    console.log(pop);
+    showLayers(pop);
+    //mymap.removeLayer(dataLayer);
+    //layersControl.removeLayer(dataLayer);
+    //dataLayer = makeLayer(city, 1, pop).addTo(mymap);
+    //mymap.addLayer(dataLayer);
+    //layersControl.addOverlay(dataLayer, "dataLayer"+num++);
 });
-

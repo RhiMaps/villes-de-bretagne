@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <title>Villes de Bretagne</title>
     <link rel="stylesheet" href="main.css" type="text/css" />
-   <link rel="stylesheet"
-         href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
-            integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
-               crossorigin=""/>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script> 
+
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+          integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+          crossorigin=""/>
      <!-- Make sure you put this AFTER Leaflet's CSS -->
-      <script
-            src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
-               integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
-                  crossorigin=""></script>
-      <script src="city.geojson"> </script>
-      <script src="town.geojson"> </script>
-      <script src="village.geojson"> </script>
-      <script src="LycGen.geojson"> </script>
-      <script src="lycees.geojson"> </script>
+     <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+             integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+             crossorigin=""></script>
+
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+             crossorigin="anonymous"></script>
+
+     <script src="city.geojson"></script>
+     <script src="town.geojson"></script>
+     <script src="village.geojson"></script>
+     <script src="LycGen.geojson"></script>
+     <script src="lycees.geojson"></script>
 
   </head>
 
-  <body ng-app="app">
-	<div ng-controller="myCtrl">
+  <body>
+	<div>
 	  <label>Min:</label>
-	  <input type="text" ng-model="popMin"
-      placeholder="Enter a population here" value="10000">
-      <button ng-click="display()">Show Name</button>
-      {{popMin}}
+	  <input id="populationInput" placeholder="Enter a population here" value="10000">
+      <button id="populationBtn">Show Population</button>
 	</div>
        <div id="mapid"></div>
       <script src="main.js"> </script>
