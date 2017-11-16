@@ -49,18 +49,20 @@ function pointToLayer(feature, latlng) {
 	var geojsonMarkerOptions;
     if( feature.properties.place && feature.properties.population)
     {
-        radius = feature.properties.population/5000;
+        radius = feature.properties.population/100;
+        radius = Math.log(radius);
+        radius = radius*radius;
         switch(feature.properties.place){
             case 'city': 
                 color= 'orange';
                 break;
             case 'town':
                 color= 'blue';
-                radius *=2;
+                //radius *=2;
                 break;
             case 'village':
                 color='green';
-                radius*=4;
+                //radius*=4;
                 break;
             }
         opacity=0.3;
