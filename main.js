@@ -6,7 +6,7 @@ var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 var mapbox = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
     maxZoom: 18,
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+    attribution: 'Map Data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
         '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
         'Imagery © <a href="http://mapbox.com">Mapbox</a>',
     id: 'mapbox.streets'
@@ -49,7 +49,7 @@ function pointToLayer(feature, latlng) {
 	var geojsonMarkerOptions;
     if( feature.properties.place && feature.properties.population)
     {
-        radius = feature.properties.population/100;
+        radius = feature.properties.population/400;
         radius = Math.log(radius);
         radius = radius*radius;
         switch(feature.properties.place){
@@ -98,67 +98,78 @@ function filterCity(popMin){
     };
 }
 
-var layerNames = ["Cities",
-    "Villages",
-    "Towns",
-    "Lycees",
-    "LyceesG"];
+var allLayers = {
+    "Cities":{layer: new L.geoJson(), isAdded: true},
+    "Towns":{layer: new L.geoJson(), isAdded: true},
+    "Villages":{layer: new L.geoJson(), isAdded: true},
+    "Lycees":{layer: new L.geoJson(), isAdded: true},
+    "LyceesG":{layer: new L.geoJson(), isAdded: true}
+};
 
-var allLayers = new Map();
-for( var i=0; i<layerNames.length; i++)
-{
-    allLayers.set(layerNames[i], new L.geoJson());
-}
 
 function showLayers(popMin){
 
     console.log(popMin);
 
+    var wasAdded={};
 
-    for (var [layerName, layerData] of allLayers)
+    for (var layerName in allLayers)
     {
+        layerData = allLayers[layerName].layer;
+
+        // record layer state
+        wasAdded[layerName]=mymap.hasLayer(layerData);
+
+        // remove from map if added
         if(mymap.hasLayer(layerData)){
             mymap.removeLayer(layerData);
-            layersControl.removeLayer(layerData);
         }
+
+
+        // remove from control however
+        layersControl.removeLayer(layerData);
     }
 
 
 
-    allLayers.set("Towns",  new L.geoJson(town, {
+    allLayers["Towns"].layer=  new L.geoJson(town, {
         pointToLayer: pointToLayer,
         filter: filterCity(popMin),
         onEachFeature: onEachFeature
-    }));
+    });
 
-    allLayers.set("Villages",  new L.geoJson(village, {
+    allLayers["Villages"].layer=  new L.geoJson(village, {
         pointToLayer: pointToLayer,
         filter: filterCity(popMin),
         onEachFeature: onEachFeature
-    }));
+    });
 
-    allLayers.set("Cities",  new L.geoJson(city, {
+    allLayers["Cities"].layer=  new L.geoJson(city, {
         pointToLayer: pointToLayer,
         filter: filterCity(popMin),
         onEachFeature: onEachFeature
-    }));
+    });
 
-    allLayers.set("Lycees",  new L.geoJson(lycees, {
+    allLayers["Lycees"].layer=  new L.geoJson(lycees, {
         pointToLayer: pointToLayer,
         onEachFeature: onEachFeature
-    }));
+    });
 
-    allLayers.set("LyceesG",  new L.geoJson(LycGen, {
+    allLayers["LyceesG"].layer=  new L.geoJson(LycGen, {
         pointToLayer: pointToLayer,
         onEachFeature: onEachFeature
-    }));
+    });
 
 
-    for (var [layerName, layerData] of allLayers)
+    for (var layerName in allLayers)
     {
-        if(! mymap.hasLayer(layerData)){
+        layerData = allLayers[layerName].layer;
+        // add to control however
+        layersControl.addOverlay(layerData, layerName);
+
+        // add to map if was added before
+        if(wasAdded[layerName]){
             mymap.addLayer(layerData);
-            layersControl.addOverlay(layerData, layerName);
         }
     }
 
@@ -177,7 +188,7 @@ mymap.on('zoomend', function(){
 */
 
 
-showLayers(10000);
+showLayers(100);
 
 
 $( "#populationBtn" ).click(function() {
