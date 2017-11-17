@@ -99,18 +99,18 @@ function filterCity(popMin){
 }
 
 var allLayers = {
-    Cities:{layer: new L.geoJson(), isAdded: true},
-    Towns:{layer: new L.geoJson(), isAdded: true},
-    Villages:{layer: new L.geoJson(), isAdded: true},
-    Lycees:{layer: new L.geoJson(), isAdded: true},
-    LyceesG:{layer: new L.geoJson(), isAdded: true}
+    Cities:{layer: new L.geoJson().addTo(mymap), isAdded: true},
+    Towns:{layer: new L.geoJson().addTo(mymap), isAdded: true},
+    Villages:{layer: new L.geoJson().addTo(mymap), isAdded: true},
+    Lycees:{layer: new L.geoJson().addTo(mymap), isAdded: true},
+    LyceesG:{layer: new L.geoJson().addTo(mymap), isAdded: true}
 };
 
 
 function showLayers(popMin){
 
 
-    // first remove what has to
+    // at first remove what has to
     for (var layerName in allLayers)
     {
         layer = allLayers[layerName].layer;
