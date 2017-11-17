@@ -99,11 +99,11 @@ function filterCity(popMin){
 }
 
 var allLayers = {
-    "Cities":{layer: new L.geoJson(), isAdded: true},
-    "Towns":{layer: new L.geoJson(), isAdded: true},
-    "Villages":{layer: new L.geoJson(), isAdded: true},
-    "Lycees":{layer: new L.geoJson(), isAdded: true},
-    "LyceesG":{layer: new L.geoJson(), isAdded: true}
+    Cities:{layer: new L.geoJson(), isAdded: true},
+    Towns:{layer: new L.geoJson(), isAdded: true},
+    Villages:{layer: new L.geoJson(), isAdded: true},
+    Lycees:{layer: new L.geoJson(), isAdded: true},
+    LyceesG:{layer: new L.geoJson(), isAdded: true}
 };
 
 
