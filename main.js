@@ -109,25 +109,23 @@ var allLayers = {
 
 function showLayers(popMin){
 
-    console.log(popMin);
 
-    var wasAdded={};
-
+    // first remove what has to
     for (var layerName in allLayers)
     {
-        layerData = allLayers[layerName].layer;
+        layer = allLayers[layerName].layer;
 
         // record layer state
-        wasAdded[layerName]=mymap.hasLayer(layerData);
+        allLayers[layerName].isAdded=mymap.hasLayer(layer);
 
-        // remove from map if added
-        if(mymap.hasLayer(layerData)){
-            mymap.removeLayer(layerData);
+        // remove from map if was added
+        if(mymap.hasLayer(layer)){
+            mymap.removeLayer(layer);
         }
 
 
         // remove from control however
-        layersControl.removeLayer(layerData);
+        layersControl.removeLayer(layer);
     }
 
 
@@ -163,13 +161,13 @@ function showLayers(popMin){
 
     for (var layerName in allLayers)
     {
-        layerData = allLayers[layerName].layer;
+        layer = allLayers[layerName].layer;
         // add to control however
-        layersControl.addOverlay(layerData, layerName);
+        layersControl.addOverlay(layer, layerName);
 
         // add to map if was added before
-        if(wasAdded[layerName]){
-            mymap.addLayer(layerData);
+        if(allLayers[layerName].isAdded){
+            mymap.addLayer(layer);
         }
     }
 
