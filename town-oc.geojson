@@ -1,0 +1,1830 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-01-03T09:17:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691393",
+        "addr:postcode": "09000",
+        "capital": "6",
+        "name": "Foix",
+        "name:ca": "Foix",
+        "name:ja": "フォワ",
+        "name:oc": "Fois",
+        "name:ru": "Фуа",
+        "place": "town",
+        "population": "9885",
+        "ref:FR:SIREN": "210901229",
+        "ref:INSEE": "09122",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q184392",
+        "wikipedia": "fr:Foix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6096025,
+          42.9660039
+        ]
+      },
+      "id": "node/26691393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691414",
+        "addr:city": "Pierrelatte",
+        "addr:country": "FR",
+        "addr:postcode": "26700",
+        "name": "Pierrelatte",
+        "name:ca": "Pèiralata",
+        "name:fr": "Pierrelatte",
+        "name:ja": "ピエールラット",
+        "name:oc": "Pèiralata",
+        "name:uk": "П’єррлатт",
+        "name:zh": "皮耶尔雷拉特",
+        "place": "town",
+        "population": "13026",
+        "ref:INSEE": "26235",
+        "source:population": "INSEE 2013",
+        "website": "http://www.ville-pierrelatte.fr/",
+        "wikidata": "Q324027",
+        "wikipedia": "fr:Pierrelatte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6976609,
+          44.3778474
+        ]
+      },
+      "id": "node/26691414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691428",
+        "addr:postcode": "12100",
+        "name": "Millau",
+        "name:fr": "Millau",
+        "name:oc": "Milhau",
+        "place": "town",
+        "population": "21800",
+        "ref:FR:SIREN": "211201454",
+        "ref:INSEE": "12145",
+        "wikidata": "Q203278",
+        "wikipedia": "fr:Millau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0777594,
+          44.1006693
+        ]
+      },
+      "id": "node/26691428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691441",
+        "addr:postcode": "81200",
+        "name": "Mazamet",
+        "name:oc": "Masamet",
+        "place": "town",
+        "population": "9995",
+        "ref:FR:SIREN": "218101632",
+        "ref:INSEE": "81163",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3764363,
+          43.4902317
+        ]
+      },
+      "id": "node/26691441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691457",
+        "addr:postcode": "34110",
+        "name": "Frontignan",
+        "name:ca": "Frontihan",
+        "name:fr": "Frontignan",
+        "name:oc": "Frontihan",
+        "name:ru": "Фронтиньян",
+        "place": "town",
+        "population": "22526",
+        "ref:FR:SIREN": "213401086",
+        "ref:INSEE": "34108",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q216280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.7530636,
+          43.4487615
+        ]
+      },
+      "id": "node/26691457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691492",
+        "addr:postcode": "13270",
+        "name": "Fos-sur-Mer",
+        "place": "town",
+        "population": "15357",
+        "ref:FR:SIREN": "211300397",
+        "ref:INSEE": "13039",
+        "ref:LOCODE": "FRFOS",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q455657"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.945595,
+          43.4380714
+        ]
+      },
+      "id": "node/26691492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691520",
+        "addr:postcode": "30300",
+        "name": "Beaucaire",
+        "place": "town",
+        "population": "15946",
+        "ref:FR:SIREN": "213000326",
+        "ref:INSEE": "30032",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q211647"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6392648,
+          43.8085436
+        ]
+      },
+      "id": "node/26691520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691544",
+        "addr:postcode": "84700",
+        "name": "Sorgues",
+        "name:la": "Cypresseta",
+        "place": "town",
+        "population": "18046",
+        "ref:FR:SIREN": "218401297",
+        "ref:INSEE": "84129",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q538880"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8725016,
+          44.0066403
+        ]
+      },
+      "id": "node/26691544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691633",
+        "addr:postcode": "81100",
+        "name": "Castres",
+        "name:oc": "Castras",
+        "place": "town",
+        "population": "42314",
+        "ref:FR:SIREN": "218100659",
+        "ref:INSEE": "81065",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q188776"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2417954,
+          43.6036776
+        ]
+      },
+      "id": "node/26691633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691636",
+        "addr:postcode": "13110",
+        "name": "Port-de-Bouc",
+        "place": "town",
+        "population": "17216",
+        "ref:FR:SIREN": "211300777",
+        "ref:INSEE": "13077",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q675925"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9806998,
+          43.403098
+        ]
+      },
+      "id": "node/26691636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691643",
+        "addr:postcode": "30100",
+        "name": "Alès",
+        "place": "town",
+        "population": "41000",
+        "ref:FR:SIREN": "213000078",
+        "ref:INSEE": "30007",
+        "wikidata": "Q193183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0852818,
+          44.1253665
+        ]
+      },
+      "id": "node/26691643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691709",
+        "addr:postcode": "13200",
+        "name": "Arles",
+        "name:ja": "アルル",
+        "name:la": "Arelate",
+        "name:oc": "Arlo",
+        "place": "town",
+        "population": "52661",
+        "ref:FR:SIREN": "211300041",
+        "ref:INSEE": "13004",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q48292",
+        "wikipedia": "fr:Arles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6309653,
+          43.6776223
+        ]
+      },
+      "id": "node/26691709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691711",
+        "addr:postcode": "13140",
+        "name": "Miramas",
+        "place": "town",
+        "population": "25368",
+        "ref:FR:SIREN": "211300637",
+        "ref:INSEE": "13063",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q235865"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0025809,
+          43.582733
+        ]
+      },
+      "id": "node/26691711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691743",
+        "addr:postcode": "34400",
+        "name": "Lunel",
+        "name:ca": "Lunèl",
+        "name:oc": "Lunèl",
+        "place": "town",
+        "population": "25310",
+        "ref:FR:SIREN": "213401458",
+        "ref:INSEE": "34145",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q318082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.1348062,
+          43.6745265
+        ]
+      },
+      "id": "node/26691743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691746",
+        "addr:postcode": "34170",
+        "name": "Castelnau-le-Lez",
+        "place": "town",
+        "population": "18233",
+        "ref:FR:SIREN": "213400575",
+        "ref:INSEE": "34057",
+        "wikidata": "Q474555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9133311,
+          43.6393171
+        ]
+      },
+      "id": "node/26691746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691768",
+        "addr:postcode": "34970",
+        "name": "Lattes",
+        "name:la": "Lattara",
+        "name:oc": "Latas",
+        "place": "town",
+        "population": "16020",
+        "ref:FR:SIREN": "213401292",
+        "ref:INSEE": "34129",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q193895"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9017114,
+          43.5653993
+        ]
+      },
+      "id": "node/26691768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691780",
+        "addr:postcode": "13160",
+        "name": "Châteaurenard",
+        "place": "town",
+        "population": "14928",
+        "ref:FR:SIREN": "211300272",
+        "ref:INSEE": "13027",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.85568,
+          43.8820448
+        ]
+      },
+      "id": "node/26691780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691834",
+        "addr:postcode": "11000",
+        "capital": "6",
+        "name": "Carcassonne",
+        "name:ca": "Carcassona",
+        "name:es": "Carcasona",
+        "name:ja": "カルカソンヌ",
+        "name:oc": "Carcassona",
+        "name:ru": "Каркасон",
+        "place": "town",
+        "population": "47419",
+        "ref:FR:SIREN": "211100698",
+        "ref:INSEE": "11069",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q6582",
+        "wikipedia": "fr:Carcassonne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3491069,
+          43.2130358
+        ]
+      },
+      "id": "node/26691834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691840",
+        "addr:postcode": "34200",
+        "name": "Sète",
+        "name:ca": "Seta",
+        "name:oc": "Seta",
+        "name:ru": "Сет",
+        "place": "town",
+        "population": "44830",
+        "ref:FR:SIREN": "213403017",
+        "ref:INSEE": "34301",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q191141"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6941845,
+          43.4017377
+        ]
+      },
+      "id": "node/26691840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691852",
+        "addr:postcode": "34300",
+        "name": "Agde",
+        "place": "town",
+        "population": "25695",
+        "ref:FR:SIREN": "213400039",
+        "ref:INSEE": "34003",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q191396"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.4718381,
+          43.3126647
+        ]
+      },
+      "id": "node/26691852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691860",
+        "addr:postcode": "84100",
+        "name": "Orange",
+        "name:ca": "Aurenja",
+        "name:la": "Arausio",
+        "name:oc": "Aurenja",
+        "place": "town",
+        "population": "29135",
+        "ref:INSEE": "84087",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q187796",
+        "wikipedia": "fr:Orange (Vaucluse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8078783,
+          44.1371311
+        ]
+      },
+      "id": "node/26691860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691882",
+        "addr:postcode": "81300",
+        "name": "Graulhet",
+        "name:oc": "Graulhet",
+        "place": "town",
+        "population": "11955",
+        "ref:FR:SIREN": "218101053",
+        "ref:INSEE": "81105",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.99723,
+          43.7578
+        ]
+      },
+      "id": "node/26691882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691884",
+        "addr:postcode": "30200",
+        "name": "Bagnols-sur-Cèze",
+        "place": "town",
+        "population": "18245",
+        "ref:FR:SIREN": "213000284",
+        "ref:INSEE": "30028",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q274183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6235831,
+          44.160481
+        ]
+      },
+      "id": "node/26691884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691897",
+        "addr:postcode": "13130",
+        "name": "Berre-l'Étang",
+        "place": "town",
+        "population": "13582",
+        "ref:FR:SIREN": "211300140",
+        "ref:INSEE": "13014",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1681405,
+          43.4740673
+        ]
+      },
+      "id": "node/26691897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691901",
+        "addr:postcode": "12000",
+        "capital": "6",
+        "name": "Rodez",
+        "name:ca": "Rodés",
+        "name:fr": "Rodez",
+        "name:la": "Segodunum",
+        "name:oc": "Rodès",
+        "name:ru": "Родез",
+        "place": "town",
+        "population": "23917",
+        "ref:FR:SIREN": "211202023",
+        "ref:INSEE": "12202",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q188780",
+        "wikipedia": "fr:Rodez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5733006,
+          44.3510012
+        ]
+      },
+      "id": "node/26691901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691933",
+        "addr:postcode": "84500",
+        "award:fleurs": "2",
+        "ele": "0",
+        "name": "Bollène",
+        "phone": "+33 4 90 40 51 00",
+        "place": "town",
+        "population": "13900",
+        "ref:FR:SIREN": "218400190",
+        "ref:INSEE": "84019",
+        "website": "http://www.ville-bollene.fr/",
+        "wikidata": "Q331579",
+        "wikipedia": "fr:Bollène"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7484092,
+          44.2803882
+        ]
+      },
+      "id": "node/26691933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26691940",
+        "addr:postcode": "30400",
+        "name": "Villeneuve-lès-Avignon",
+        "place": "town",
+        "population": "12384",
+        "ref:FR:SIREN": "213003510",
+        "ref:INSEE": "30351",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7974288,
+          43.9625312
+        ]
+      },
+      "id": "node/26691940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692059",
+        "addr:postcode": "81600",
+        "name": "Gaillac",
+        "name:oc": "Galhac",
+        "place": "town",
+        "population": "13293",
+        "ref:FR:SIREN": "218100998",
+        "ref:INSEE": "81099",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8967943,
+          43.9016766
+        ]
+      },
+      "id": "node/26692059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692060",
+        "addr:postcode": "84300",
+        "name": "Cavaillon",
+        "place": "town",
+        "population": "24951",
+        "ref:FR:SIREN": "218400356",
+        "ref:INSEE": "84035",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q208798"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0393165,
+          43.8322775
+        ]
+      },
+      "id": "node/26692060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692136",
+        "addr:postcode": "81000",
+        "capital": "6",
+        "name": "Albi",
+        "name:oc": "Albi",
+        "name:ru": "Альби",
+        "place": "town",
+        "population": "48916",
+        "ref:FR:SIREN": "218100048",
+        "ref:INSEE": "81004",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q132801",
+        "wikipedia": "fr:Albi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.147899,
+          43.9277552
+        ]
+      },
+      "id": "node/26692136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692140",
+        "addr:postcode": "13220",
+        "name": "Châteauneuf-les-Martigues",
+        "place": "town",
+        "population": "11665",
+        "ref:FR:SIREN": "211300264",
+        "ref:INSEE": "13026",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1646417,
+          43.3804293
+        ]
+      },
+      "id": "node/26692140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692238",
+        "addr:postcode": "11400",
+        "name": "Castelnaudary",
+        "name:ca": "Castellnou d'Arri",
+        "name:oc": "Castèlnòu d'Arri",
+        "place": "town",
+        "population": "11753",
+        "ref:FR:SIREN": "211100763",
+        "ref:INSEE": "11076",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9533495,
+          43.3192021
+        ]
+      },
+      "id": "node/26692238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692239",
+        "addr:postcode": "30800",
+        "name": "Saint-Gilles",
+        "place": "town",
+        "population": "13564",
+        "ref:FR:SIREN": "213002587",
+        "ref:INSEE": "30258",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4318488,
+          43.677007
+        ]
+      },
+      "id": "node/26692239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692242",
+        "addr:postcode": "13800",
+        "name": "Istres",
+        "place": "town",
+        "population": "42544",
+        "ref:FR:SIREN": "211300470",
+        "ref:INSEE": "13047",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q203759"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9884323,
+          43.5139051
+        ]
+      },
+      "id": "node/26692242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692283",
+        "addr:postcode": "13300",
+        "name": "Salon-de-Provence",
+        "name:ca": "Selon de Provença",
+        "name:en": "Salon de Provence",
+        "name:oc": "Selon de Provença",
+        "name:ru": "Салон-де-Прованс",
+        "place": "town",
+        "population": "43152",
+        "ref:FR:SIREN": "211301031",
+        "ref:INSEE": "13103",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0980225,
+          43.6405237
+        ]
+      },
+      "id": "node/26692283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692504",
+        "addr:postcode": "31240",
+        "name": "L'Union",
+        "name:fr": "L'Union",
+        "name:oc": "L'Union",
+        "place": "town",
+        "population": "11792",
+        "ref:FR:SIREN": "213105612",
+        "ref:INSEE": "31561",
+        "source:population": "INSEE 2011",
+        "website": "http://www.mairie-lunion.fr/",
+        "wikidata": "Q1418996",
+        "wikipedia": "fr:L'Union (Haute-Garonne)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4846885,
+          43.6501518
+        ]
+      },
+      "id": "node/26692504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692522",
+        "addr:postcode": "84200",
+        "name": "Carpentras",
+        "place": "town",
+        "population": "29278",
+        "ref:FR:SIREN": "218400315",
+        "ref:INSEE": "84031",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q202560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.048752,
+          44.0554997
+        ]
+      },
+      "id": "node/26692522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692526",
+        "addr:postcode": "84130",
+        "name": "Le Pontet",
+        "place": "town",
+        "population": "16731",
+        "ref:FR:SIREN": "218400927",
+        "ref:INSEE": "84092",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q225501"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8602588,
+          43.9621858
+        ]
+      },
+      "id": "node/26692526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692565",
+        "addr:postcode": "84800",
+        "name": "L'Isle-sur-la-Sorgue",
+        "place": "town",
+        "population": "19048",
+        "ref:FR:SIREN": "218400547",
+        "ref:INSEE": "84054",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q504204"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0515385,
+          43.9185354
+        ]
+      },
+      "id": "node/26692565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26692573",
+        "addr:postcode": "34500",
+        "admin_level": "8",
+        "capital": "7",
+        "name": "Béziers",
+        "name:ca": "Besiers",
+        "name:de": "Béziers",
+        "name:fr": "Béziers",
+        "name:ja": "ベジエ",
+        "name:oc": "Besièrs",
+        "place": "town",
+        "population": "76382",
+        "ref:FR:SIREN": "213400328",
+        "ref:INSEE": "34032",
+        "website": "http://www.ville-beziers.fr/",
+        "wikidata": "Q174019",
+        "wikipedia": "fr:Béziers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.2166203,
+          43.341279
+        ]
+      },
+      "id": "node/26692573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26695375",
+        "addr:postcode": "84110",
+        "name": "Vaison-la-Romaine",
+        "place": "town",
+        "population": "6169",
+        "ref:FR:SIREN": "218401370",
+        "ref:INSEE": "84137",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.075737,
+          44.2407641
+        ]
+      },
+      "id": "node/26695375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26695667",
+        "addr:postcode": "34140",
+        "name": "Mèze",
+        "place": "town",
+        "population": "10739",
+        "ref:FR:SIREN": "213401573",
+        "ref:INSEE": "34157",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.5988383,
+          43.4245985
+        ]
+      },
+      "id": "node/26695667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26695717",
+        "addr:postcode": "31650",
+        "name": "Saint-Orens-de-Gameville",
+        "place": "town",
+        "population": "10918",
+        "ref:FR:SIREN": "213105067",
+        "ref:INSEE": "31506",
+        "short_name": "Saint-Orens",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5377265,
+          43.555402
+        ]
+      },
+      "id": "node/26695717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26695811",
+        "addr:postcode": "31130",
+        "name": "Balma",
+        "name:oc": "Balmar",
+        "place": "town",
+        "population": "13474",
+        "ref:FR:SIREN": "213100449",
+        "ref:INSEE": "31044",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5058722,
+          43.6112042
+        ]
+      },
+      "id": "node/26695811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26695844",
+        "addr:postcode": "84600",
+        "name": "Valréas",
+        "name:ru": "Вальреас",
+        "place": "town",
+        "population": "9800",
+        "ref:FR:SIREN": "218401388",
+        "ref:INSEE": "84138",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9906089,
+          44.3851455
+        ]
+      },
+      "id": "node/26695844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26696080",
+        "addr:country": "FR",
+        "addr:postcode": "66750",
+        "name": "Saint-Cyprien",
+        "name:ca": "Sant Cebrià de Rosselló",
+        "place": "town",
+        "population": "10476",
+        "ref:FR:SIREN": "216601716",
+        "ref:INSEE": "66171",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0043728,
+          42.6176479
+        ]
+      },
+      "id": "node/26696080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26696128",
+        "addr:postcode": "11300",
+        "name": "Limoux",
+        "name:ca": "Limós",
+        "name:oc": "Limós",
+        "old_name": "Limós",
+        "place": "town",
+        "population": "10130",
+        "ref:FR:SIREN": "211102066",
+        "ref:INSEE": "11206",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2176533,
+          43.0538068
+        ]
+      },
+      "id": "node/26696128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26696592",
+        "addr:city": "Lézignan-Corbières",
+        "addr:postcode": "11200",
+        "name": "Lézignan-Corbières",
+        "place": "town",
+        "population": "11248",
+        "ref:FR:SIREN": "211102033",
+        "ref:INSEE": "11203",
+        "source:population": "INSEE 2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7574981,
+          43.2008841
+        ]
+      },
+      "id": "node/26696592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26696677",
+        "addr:postcode": "30130",
+        "name": "Pont-Saint-Esprit",
+        "place": "town",
+        "population": "10437",
+        "ref:FR:SIREN": "213002025",
+        "ref:INSEE": "30202",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6456631,
+          44.2538589
+        ]
+      },
+      "id": "node/26696677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26697260",
+        "addr:country": "FR",
+        "addr:postcode": "66140",
+        "name": "Canet-en-Roussillon",
+        "name:ca": "Canet de Rosselló",
+        "place": "town",
+        "population": "13293",
+        "ref:FR:SIREN": "216600379",
+        "ref:INSEE": "66037",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0105105,
+          42.704359
+        ]
+      },
+      "id": "node/26697260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26697281",
+        "addr:postcode": "84210",
+        "name": "Pernes-les-Fontaines",
+        "place": "town",
+        "population": "10410",
+        "ref:FR:SIREN": "218400885",
+        "ref:INSEE": "84088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.059255,
+          43.9984627
+        ]
+      },
+      "id": "node/26697281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26697672",
+        "addr:country": "FR",
+        "addr:postcode": "66700",
+        "name": "Argelès-sur-Mer",
+        "name:ca": "Argelers",
+        "name:oc": "Argelers",
+        "place": "town",
+        "population": "10279",
+        "population:date": "2014",
+        "ref:FR:SIREN": "216600080",
+        "ref:INSEE": "66008",
+        "wikidata": "Q644728",
+        "wikipedia": "fr:Argelès-sur-Mer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0233416,
+          42.5489182
+        ]
+      },
+      "id": "node/26697672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26697684",
+        "addr:postcode": "84170",
+        "name": "Monteux",
+        "place": "town",
+        "population": "10989",
+        "ref:FR:SIREN": "218400802",
+        "ref:INSEE": "84080",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9968733,
+          44.0349281
+        ]
+      },
+      "id": "node/26697684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26698272",
+        "addr:postcode": "31190",
+        "name": "Auterive",
+        "name:ca": "Autariba",
+        "name:fr": "Auterive",
+        "name:oc": "Autariba",
+        "place": "town",
+        "population": "9107",
+        "ref:FR:SIREN": "213100332",
+        "ref:INSEE": "31033",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4770215,
+          43.3508371
+        ]
+      },
+      "id": "node/26698272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/58957648",
+        "ISO3166-1:alpha2": "AD",
+        "admin_level": "2",
+        "capital": "yes",
+        "ele": "1011",
+        "is_in": "Andorra",
+        "is_in:continent": "Europe",
+        "is_in:country": "Andorra",
+        "is_in:country_code": "AD",
+        "is_in:iso_3166_2": "AD-07",
+        "name": "Andorra la Vella",
+        "name:am": "አንዶራ ላ ቬላ",
+        "name:an": "Andorra la Biella",
+        "name:ar": "أندورا لا فيلا",
+        "name:bat-smg": "Anduora",
+        "name:be": "Андора-ла-Велья",
+        "name:be-tarask": "Андора ля Вэльля",
+        "name:bg": "Андора ла Веля",
+        "name:bn": "আন্দরা লা ভেলিয়া",
+        "name:bo": "ཨན་ཌོར་ར་གྲོང་ཁྱེར།",
+        "name:ca": "Andorra la Vella",
+        "name:ce": "Андорра-ла-Велья",
+        "name:cv": "Андорра-ла-Вьеха",
+        "name:el": "Ανδόρρα λα Βέγια",
+        "name:eo": "Andoro Malnova",
+        "name:es": "Andorra la Vieja",
+        "name:fa": "آندورا لاولا",
+        "name:fr": "Andorre-la-Vieille",
+        "name:frp": "Andorra-la-Vielye",
+        "name:gl": "Andorra a Vella - Andorra la Vella",
+        "name:he": "אנדורה לה ולה",
+        "name:ht": "Andò-la-Vyèy",
+        "name:hu": "Andorra la Vella",
+        "name:hy": "Անդորա լա Վելյա",
+        "name:is": "Andorra la Vella",
+        "name:ja": "アンドラ・ラ・ベリャ",
+        "name:ka": "ანდორა-ლა-ველა",
+        "name:kk": "Андорра-ла-Велья",
+        "name:ko": "안도라라벨랴",
+        "name:ku": "Andorra la Vella",
+        "name:kv": "Андорра-ла-Велья",
+        "name:la": "Andorra Vetus",
+        "name:lij": "A Vella",
+        "name:lt": "Andora",
+        "name:lv": "Andora la Velja",
+        "name:mk": "Андора ла Велја",
+        "name:ml": "അൻഡോറ ല വെല്ല",
+        "name:mr": "अँडोरा ला व्हेल्या",
+        "name:nah": "Andorra in Huehcāuh",
+        "name:nl": "Andorra",
+        "name:oc": "Andòrra la Vièlha",
+        "name:os": "Андоррæ-ла-Велья",
+        "name:pl": "Andora",
+        "name:pnb": "انڈورا لا ویلا",
+        "name:pt": "Andorra-a-Velha",
+        "name:ru": "Андорра-ла-Велья",
+        "name:sah": "Андорра ла Велья",
+        "name:sk": "Andorra",
+        "name:sr": "Андора ла Веља",
+        "name:sv": "Andorra la Vella",
+        "name:ta": "அன்டோரா லா வெல்லா",
+        "name:tet": "Andorra Tuan",
+        "name:tg": "Андорра-ла-Веля",
+        "name:th": "อันดอร์ราลาเบยา",
+        "name:tl": "Lungsod ng Andorra la Vella",
+        "name:udm": "Андорра-ла-Велья",
+        "name:ug": "ئاندوررا كەنتى",
+        "name:uk": "Андорра-ла-Велья",
+        "name:vep": "Andorr la Vel'j",
+        "name:zh": "安道爾城",
+        "place": "town",
+        "population": "24678",
+        "wikidata": "Q1863",
+        "wikipedia": "fr:Andorre-la-Vieille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5212467,
+          42.5069391
+        ]
+      },
+      "id": "node/58957648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/58963219",
+        "is_in": "Andorra",
+        "name": "Ordino",
+        "name:be": "Ардына",
+        "name:be-tarask": "Ардзіна",
+        "name:lt": "Ordinas",
+        "name:ru": "Ордино",
+        "place": "town",
+        "website": "http://www.ordino.ad/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5334945,
+          42.55615
+        ]
+      },
+      "id": "node/58963219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/64954433",
+        "gns:N:xx:FULL_NAME": "Canillo",
+        "gns:N:xx:FULL_NAME_ND": "Canillo",
+        "name": "Canillo",
+        "name:be": "Канільё",
+        "name:be-tarask": "Канільлё",
+        "name:lt": "Kaniljas",
+        "name:ru": "Канильо",
+        "note": "Experimental import of Andorrian places and POIs from GNS Dataset",
+        "place": "town",
+        "source": "gns_an"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5977647,
+          42.5668305
+        ]
+      },
+      "id": "node/64954433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/64954486",
+        "gns:N:xx:FULL_NAME_ND": "Sant Julia de Loria",
+        "gns:V:xx:FULL_NAME": "Sant Juliá",
+        "gns:V:xx:FULL_NAME_ND": "Sant Julia",
+        "gns:V:xx:MODIFY_DATE": "2004-05-05",
+        "name": "Sant Julià de Lòria",
+        "name:be": "Сант-Жулія-дэ-Лорыя",
+        "name:be-tarask": "Сант Жулія дэ Лёрыя",
+        "name:lt": "Sant Chulija de Lorija",
+        "name:ru": "Сант-Жулия-де-Лория",
+        "note": "Experimental import of Andorrian places and POIs from GNS Dataset",
+        "place": "town",
+        "source": "gns_an"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4920555,
+          42.4666593
+        ]
+      },
+      "id": "node/64954486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/64954563",
+        "gns:ADM1": "04",
+        "gns:V:xx:FULL_NAME": "La Maçana",
+        "gns:V:xx:FULL_NAME_ND": "La Macana",
+        "name": "La Massana",
+        "name:be": "Ла-Масана",
+        "name:be-tarask": "Ля Масана",
+        "name:lt": "La Masana",
+        "name:ru": "Ла-Массана",
+        "note": "Experimental import of Andorrian places and POIs from GNS Dataset",
+        "place": "town",
+        "source": "gns_an",
+        "wikidata": "Q24276",
+        "wikipedia": "ca:La Massana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5163754,
+          42.5442014
+        ]
+      },
+      "id": "node/64954563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/64954584",
+        "gns:ADM1": "03",
+        "gns:N:xx:FULL_NAME": "Encamp",
+        "gns:N:xx:FULL_NAME_ND": "Encamp",
+        "gns:RC": "1",
+        "gns:UFI": "-1395326",
+        "gns:UNI": "-2003031",
+        "name": "Encamp",
+        "name:be": "Энкамп",
+        "name:be-tarask": "Энкамп",
+        "name:lt": "Enkampas",
+        "name:ru": "Энкамп",
+        "note": "Experimental import of Andorrian places and POIs from GNS Dataset",
+        "place": "town",
+        "source": "gns_an"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5836753,
+          42.5359781
+        ]
+      },
+      "id": "node/64954584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/64954589",
+        "gns:ADM1": "08",
+        "gns:N:xx:FULL_NAME": "Les Escaldes",
+        "gns:N:xx:FULL_NAME_ND": "Les Escaldes",
+        "gns:N:xx:NT": "N",
+        "gns:N:xx:SHORT_FORM": "Escaldes",
+        "gns:N:xx:SORT_NAME": "LESESCALDES",
+        "gns:RC": "1",
+        "gns:UFI": "-1395964",
+        "gns:UNI": "-2003706",
+        "gns:V:xx:FULL_NAME": "Las Escadas",
+        "gns:V:xx:FULL_NAME_ND": "Las Escadas",
+        "gns:V:xx:MODIFY_DATE": "2004-05-05",
+        "gns:V:xx:NT": "V",
+        "gns:V:xx:SORT_NAME": "LASESCADAS",
+        "name": "Les Escaldes",
+        "name:be": "Лэс-Эскальдэс",
+        "name:be-tarask": "Лэс Эскальдэс",
+        "name:lt": "Les Eskaldesas",
+        "name:ru": "Эскальдес",
+        "note": "Experimental import of Andorrian places and POIs from GNS Dataset",
+        "place": "town",
+        "source": "gns_an",
+        "wikidata": "Q1050185"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5404067,
+          42.5090019
+        ]
+      },
+      "id": "node/64954589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/92990515",
+        "addr:postcode": "13500",
+        "name": "Martigues",
+        "place": "town",
+        "population": "47544",
+        "ref:FR:SIREN": "211300561",
+        "ref:INSEE": "13056",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q237516"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0548176,
+          43.4057279
+        ]
+      },
+      "id": "node/92990515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/280274847",
+        "name": "Vauvert",
+        "place": "town",
+        "population": "11023",
+        "ref:FR:SIREN": "213003411",
+        "ref:INSEE": "30341",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2754772,
+          43.6924382
+        ]
+      },
+      "id": "node/280274847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/317611269",
+        "addr:postcode": "34130",
+        "name": "Mauguio",
+        "name:fr": "Mauguio",
+        "name:oc": "Mauguòu",
+        "place": "town",
+        "population": "16898",
+        "ref:FR:SIREN": "213401540",
+        "ref:INSEE": "34154",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q753087"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0098366,
+          43.6154825
+        ]
+      },
+      "id": "node/317611269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1402031504",
+        "addr:postcode": "31520",
+        "name": "Ramonville-Saint-Agne",
+        "name:oc": "Ramonvila e Sent Anha",
+        "place": "town",
+        "population": "11994",
+        "ref:INSEE": "31446",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4749101,
+          43.5460533
+        ]
+      },
+      "id": "node/1402031504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1470838793",
+        "admin_level": "8",
+        "capital": "7",
+        "ele": "1206",
+        "is_in:country": "Spain",
+        "is_in:country_code": "ES",
+        "is_in:municipality": "Puigcerdà",
+        "is_in:province_code": "17",
+        "name": "Puigcerdà",
+        "name:lt": "Puigserda",
+        "place": "town",
+        "population": "7020",
+        "ref:ine": "17141000200",
+        "source": "gencat <http://www10.gencat.net/ptop/binaris/CERP492_tcm32-11185.pdf> on the population;Instituto Geográfico Nacional",
+        "source:date": "2011-06",
+        "source:ele": "MDT5",
+        "source:file": "http://centrodedescargas.cnig.es/CentroDescargas/equipamiento/BD_Municipios-Entidades.zip",
+        "source:name": "Nomenclátor Geográfico de Municipios y Entidades de Población",
+        "wikidata": "Q13765",
+        "wikipedia": "ca:Puigcerdà"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9278693,
+          42.4317966
+        ]
+      },
+      "id": "node/1470838793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1655853073",
+        "addr:postcode": "13310",
+        "name": "Saint-Martin-de-Crau",
+        "place": "town",
+        "population": "11180",
+        "ref:FR:SIREN": "211300975",
+        "ref:INSEE": "13097",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8102927,
+          43.6384247
+        ]
+      },
+      "id": "node/1655853073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1665371116",
+        "addr:postcode": "13150",
+        "name": "Tarascon",
+        "place": "town",
+        "population": "13297",
+        "ref:FR:SIREN": "211301080",
+        "ref:INSEE": "13108",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6585115,
+          43.8053654
+        ]
+      },
+      "id": "node/1665371116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1669875368",
+        "addr:postcode": "12200",
+        "name": "Villefranche-de-Rouergue",
+        "name:fr": "Villefranche-de-Rouergue",
+        "name:oc": "Vilafranca-de-Roergue",
+        "old_name": "Carentomago",
+        "place": "town",
+        "population": "12124",
+        "ref:FR:SIREN": "211203005",
+        "ref:INSEE": "12300",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q213501",
+        "wikipedia": "fr:Villefranche-de-Rouergue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0375431,
+          44.3517623
+        ]
+      },
+      "id": "node/1669875368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1669973130",
+        "addr:postcode": "11100",
+        "name": "Narbonne",
+        "name:ca": "Narbona",
+        "name:es": "Narbona",
+        "name:eu": "Narbona",
+        "name:oc": "Narbona",
+        "place": "town",
+        "population": "51039",
+        "ref:FR:SIREN": "211102629",
+        "ref:INSEE": "11262",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q6555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0043128,
+          43.182806
+        ]
+      },
+      "id": "node/1669973130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1742488663",
+        "addr:postcode": "09100",
+        "name": "Pamiers",
+        "name:ca": "Pàmies",
+        "name:oc": "Pàmias",
+        "place": "town",
+        "population": "15372",
+        "ref:FR:SIREN": "210902250",
+        "ref:INSEE": "09225",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q209834"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6082177,
+          43.1147515
+        ]
+      },
+      "id": "node/1742488663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2017914837",
+        "addr:postcode": "13210",
+        "name": "Saint-Rémy-de-Provence",
+        "place": "town",
+        "population": "10617",
+        "ref:INSEE": "13100",
+        "source:population": "INSEE 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8317498,
+          43.7885782
+        ]
+      },
+      "id": "node/2017914837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2265622397",
+        "name": "Carmaux",
+        "place": "town",
+        "population": "9688",
+        "ref:INSEE": "81060"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1581754,
+          44.0496638
+        ]
+      },
+      "id": "node/2265622397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5316489847",
+        "name": "Juvignac",
+        "place": "town",
+        "population": "10 629 habitants (2015)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8100226,
+          43.6142053
+        ]
+      },
+      "id": "node/5316489847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5316501528",
+        "name": "Saint-Estève",
+        "place": "town",
+        "population": "11 698"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8446871,
+          42.7154976
+        ]
+      },
+      "id": "node/5316501528"
+    }
+  ]
+}

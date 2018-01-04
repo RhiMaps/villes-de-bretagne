@@ -23,6 +23,12 @@ var overlayMaps={};
 
 var layersControl = L.control.layers(baseMaps, overlayMaps).addTo(mymap);
 
+var city_file = "./city-oc.geojson";
+var town_file = "./town-oc.geojson";
+var village_file = "./village-oc.geojson";
+var lycees_file = "./lycees-oc.geojson";
+
+
 
 // Popup for
 // - cities with population
@@ -130,33 +136,33 @@ function showLayers(popMin){
 
 
 
-    allLayers["Towns"].layer=  new L.geoJson(town, {
+    allLayers["Towns"].layer=  L.geoJson.ajax(town_file, {
         pointToLayer: pointToLayer,
         filter: filterCity(popMin),
         onEachFeature: onEachFeature
     });
 
-    allLayers["Villages"].layer=  new L.geoJson(village, {
+    allLayers["Villages"].layer=  L.geoJson.ajax(village_file, {
         pointToLayer: pointToLayer,
         filter: filterCity(popMin),
         onEachFeature: onEachFeature
     });
 
-    allLayers["Cities"].layer=  new L.geoJson(city, {
+    allLayers["Cities"].layer=  L.geoJson.ajax(city_file, {
         pointToLayer: pointToLayer,
         filter: filterCity(popMin),
         onEachFeature: onEachFeature
     });
 
-    allLayers["Lycees"].layer=  new L.geoJson(lycees, {
+    allLayers["Lycees"].layer=  L.geoJson.ajax(lycees_file, {
         pointToLayer: pointToLayer,
         onEachFeature: onEachFeature
     });
 
-    allLayers["LyceesG"].layer=  new L.geoJson(LycGen, {
-        pointToLayer: pointToLayer,
-        onEachFeature: onEachFeature
-    });
+//    allLayers["LyceesG"].layer=  new L.geoJson(LycGen, {
+//        pointToLayer: pointToLayer,
+//        onEachFeature: onEachFeature
+//    });
 
 
     for (var layerName in allLayers)

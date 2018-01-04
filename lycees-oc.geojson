@@ -1,0 +1,1970 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-01-03T09:20:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/288342636",
+        "amenity": "school",
+        "name": "Lycée privé Notre-Dame de Bon Secours",
+        "official_name": "Lycée général et technologique privé Notre-Dame de Bon Secours",
+        "operator:type": "private",
+        "ref:UAI": "0660059F",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8838133,
+          42.6915266
+        ]
+      },
+      "id": "node/288342636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/450755875",
+        "amenity": "school",
+        "name": "Lycée général et technologique l'Empéri",
+        "ref:UAI": "0130160D",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 04/2014",
+        "website": "http://www.lyc-emperi.ac-aix-marseille.fr/spip/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0979958,
+          43.6385429
+        ]
+      },
+      "id": "node/450755875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/539665873",
+        "amenity": "school",
+        "fax": "+33466362678",
+        "name": "Lycée privé Saint-Vincent de Paul",
+        "old_name": "Gai-Logis",
+        "operator:type": "private",
+        "phone": "+33466365090",
+        "ref:UAI": "0300127A",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3617742,
+          43.833513
+        ]
+      },
+      "id": "node/539665873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/577367074",
+        "addr:city": "Rodez",
+        "addr:housenumber": "1",
+        "addr:postcode": "12000",
+        "addr:street": "Rue Sarrus",
+        "amenity": "school",
+        "contact:fax": "+33565733021",
+        "contact:phone": "+33565733040",
+        "contact:website": "http://www.stjorodez.org/",
+        "name": "Ensemble Scolaire Sainte-Geneviève Saint-Joseph Rodez",
+        "operator": "private",
+        "ref:UAI": "0120104Y",
+        "school:FR": "lycée",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009;survey2011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5735105,
+          44.3456471
+        ]
+      },
+      "id": "node/577367074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/794042856",
+        "amenity": "school",
+        "name": "Lycée général et technologique agricole EPLA de Toulouse Auzeville",
+        "operator:type": "public",
+        "ref:UAI": "0311262D",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4901783,
+          43.5369681
+        ]
+      },
+      "id": "node/794042856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/817061804",
+        "addr:housenumber": "1",
+        "addr:postcode": "12000",
+        "addr:street": "Rue Vieussens",
+        "amenity": "school",
+        "contact:fax": "+33 5 65 68 48 79",
+        "contact:phone": "+33 5 65 73 08 60",
+        "name": "Lycées Ferdinand-Foch",
+        "operator": "public",
+        "ref:UAI": "0120022J",
+        "school:FR": "lycée",
+        "smoking": "no",
+        "wikidata": "Q3268667"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5637117,
+          44.35066
+        ]
+      },
+      "id": "node/817061804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/839154970",
+        "amenity": "school",
+        "name": "École du second degré général privée Scholae",
+        "operator:type": "private",
+        "ref:UAI": "0301800U",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 04/2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8494439,
+          43.9773947
+        ]
+      },
+      "id": "node/839154970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/857667042",
+        "amenity": "school",
+        "contact:email": "lycee@carnus.fr",
+        "contact:fax": "+33565733701",
+        "contact:phone": "+33565733700",
+        "contact:website": "www.carnus.fr",
+        "name": "Lycée Technologique Privé et centre de formation Charles Carnus",
+        "operator:type": "private",
+        "ref:UAI": "0121423G",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5571229,
+          44.3552947
+        ]
+      },
+      "id": "node/857667042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1548072076",
+        "addr:housename": "Sainte Procule",
+        "addr:housenumber": "22",
+        "addr:postcode": "12000",
+        "addr:street": "Boulevard Denys Puech",
+        "amenity": "school",
+        "contact:website": "www.francoisdestaing.fr",
+        "name": "Lycée D'enseignement Général Et Technologique Privé François D'estaing",
+        "operator": "private",
+        "ref:UAI": "0121438Y",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5775465,
+          44.3489916
+        ]
+      },
+      "id": "node/1548072076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1744622041",
+        "amenity": "school",
+        "name": "Lycée professionnel privé Skhole d'Art Toulouse",
+        "operator:type": "private",
+        "ref:UAI": "0311190A",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4782311,
+          43.5774012
+        ]
+      },
+      "id": "node/1744622041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1744622195",
+        "addr:city": "Toulouse",
+        "addr:housenumber": "55",
+        "addr:postcode": "31400",
+        "addr:street": "Avenue Louis Breguet",
+        "amenity": "school",
+        "name": "École Technique privée de Coiffure et d'Esthétique-Cosmétique Skhole d'Art",
+        "operator:type": "private",
+        "ref:UAI": "0312785J",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4786425,
+          43.5773524
+        ]
+      },
+      "id": "node/1744622195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1766134170",
+        "amenity": "school",
+        "name": "LGT Vincent Auriol Lycée des métiers d'art, du bois et de l'ameublement",
+        "operator:type": "public",
+        "ref:UAI": "0310028M",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0113329,
+          43.4559075
+        ]
+      },
+      "id": "node/1766134170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1766134171",
+        "amenity": "school",
+        "name": "LP Lycée des métiers d'art, du bois et de l'ameublement",
+        "operator:type": "public",
+        "ref:UAI": "0310088C",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0116081,
+          43.4509643
+        ]
+      },
+      "id": "node/1766134171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1766134188",
+        "amenity": "school",
+        "name": "Lycée professionnel privé La Providence",
+        "operator:type": "private",
+        "ref:UAI": "0311209W",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0064615,
+          43.4582106
+        ]
+      },
+      "id": "node/1766134188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1766134194",
+        "amenity": "school",
+        "name": "Section d'enseignement général et technologique du Lycée professionnel lycée des métiers de l'Ameublement",
+        "operator:type": "public",
+        "ref:UAI": "0312572C",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0123434,
+          43.4511474
+        ]
+      },
+      "id": "node/1766134194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1792948845",
+        "amenity": "school",
+        "name": "Lycée général et technologique Jean Cocteau",
+        "ref:UAI": "0133195C",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 04/2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0091884,
+          43.5870414
+        ]
+      },
+      "id": "node/1792948845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1801606635",
+        "amenity": "school",
+        "name": "Lycée technologique agricole privé Touscayrats",
+        "operator:type": "private",
+        "ref:UAI": "0810833R",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1809024,
+          43.5045093
+        ]
+      },
+      "id": "node/1801606635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1858844753",
+        "amenity": "school",
+        "email": "kl-coiffure@wanadoo.fr",
+        "fax": "+33468723271",
+        "name": "École du second degré professionnel privée de coiffure et d'esthétique K L",
+        "operator:type": "private",
+        "phone": "+33468723956",
+        "ref:UAI": "0111011P",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3578112,
+          43.2116379
+        ]
+      },
+      "id": "node/1858844753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1859960316",
+        "amenity": "school",
+        "name": "Lycée professionnel, Lycée des métiers Jules Fil",
+        "operator:type": "public",
+        "ref:UAI": "0110008Z",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3720847,
+          43.2143769
+        ]
+      },
+      "id": "node/1859960316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1861552988",
+        "amenity": "school",
+        "name": "Section d'enseignement professionnel du Lycée",
+        "operator:type": "public",
+        "ref:UAI": "0110973Y",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2190409,
+          43.0502138
+        ]
+      },
+      "id": "node/1861552988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1912741581",
+        "amenity": "school",
+        "name": "Lycée professionnel agricole Claude Simon",
+        "ref:UAI": "0660039J",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.870269,
+          42.7658893
+        ]
+      },
+      "id": "node/1912741581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1960546100",
+        "amenity": "school",
+        "name": "Lycée général et technologique privé Vernet",
+        "ref:UAI": "0070066J",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6448034,
+          44.3740836
+        ]
+      },
+      "id": "node/1960546100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1960546101",
+        "amenity": "school",
+        "name": "Lycée professionnel privé Présentation de Marie",
+        "operator:type": "private",
+        "ref:UAI": "0070107D",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6442683,
+          44.3739637
+        ]
+      },
+      "id": "node/1960546101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1967352083",
+        "amenity": "school",
+        "name": "Section d'enseignement professionnel du Lycée Charles Renouvier",
+        "ref:UAI": "0660458P",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4161731,
+          42.6231119
+        ]
+      },
+      "id": "node/1967352083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1976178964",
+        "amenity": "school",
+        "name": "Lycée général et technologique privé Saint-Joseph Lycée des métiers de l'électrotechnique, de la maintenance et de la productique mécanique",
+        "operator:type": "private",
+        "ref:UAI": "0311145B",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4743153,
+          43.5942489
+        ]
+      },
+      "id": "node/1976178964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1976178965",
+        "amenity": "school",
+        "name": "Lycée professionnel privé Saint-Joseph",
+        "operator:type": "private",
+        "ref:UAI": "0312065B",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4747928,
+          43.5940461
+        ]
+      },
+      "id": "node/1976178965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2004509230",
+        "amenity": "school",
+        "name": "École, collège, lycée Barral",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2341575,
+          43.5935064
+        ]
+      },
+      "id": "node/2004509230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2092543169",
+        "amenity": "school",
+        "name": "Lycée professionnel Gustave Eiffel",
+        "operator:type": "public",
+        "ref:UAI": "0110034C",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0201425,
+          43.1895325
+        ]
+      },
+      "id": "node/2092543169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2092569016",
+        "amenity": "school",
+        "name": "Lycée général et technologique Denis Diderot",
+        "operator:type": "public",
+        "ref:UAI": "0110023R",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0198927,
+          43.1903469
+        ]
+      },
+      "id": "node/2092569016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2151719748",
+        "amenity": "school",
+        "name": "Institut Jean Paul II",
+        "operator:type": "private",
+        "ref:UAI": "0301805Z",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4066038,
+          44.0110087
+        ]
+      },
+      "id": "node/2151719748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153503947",
+        "amenity": "school",
+        "name": "Lycée polyvalent privé Beauséjour",
+        "operator:type": "private",
+        "phone": "+33468320413",
+        "ref:UAI": "0110670U",
+        "school:FR": "lycée",
+        "short_name": "Lycée Beauséjour",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0060952,
+          43.1857554
+        ]
+      },
+      "id": "node/2153503947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153503948",
+        "amenity": "school",
+        "name": "Section d'enseignement professionnel du Lycée privé Beauséjour",
+        "operator:type": "private",
+        "phone": "+33468320413",
+        "ref:UAI": "0110057C",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0060838,
+          43.1861062
+        ]
+      },
+      "id": "node/2153503948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2246598113",
+        "amenity": "school",
+        "name": "Section d'enseignement professionnel du Lycée Jean Durand",
+        "operator:type": "public",
+        "phone": "+33 4 68 94 53 00",
+        "ref:UAI": "0110012D",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.941976,
+          43.3068471
+        ]
+      },
+      "id": "node/2246598113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2246598145",
+        "amenity": "school",
+        "name": "Lycée d'enseignement général et technologique agricole Pierre Paul Riquet",
+        "operator:type": "public",
+        "phone": "+33468945900",
+        "ref:UAI": "0110677B",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9419556,
+          43.3056093
+        ]
+      },
+      "id": "node/2246598145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2247342797",
+        "amenity": "school",
+        "name": "Lycée des métiers du bâtiment et des travaux publics François Andréossy",
+        "operator:type": "public",
+        "phone": "+33468231478",
+        "ref:UAI": "0110013E",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.958943,
+          43.3186257
+        ]
+      },
+      "id": "node/2247342797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2247342798",
+        "amenity": "school",
+        "name": "Section d'enseignement général et technologique du Lycée professionnel François Andréossy",
+        "operator:type": "public",
+        "phone": "+33468231478",
+        "ref:UAI": "0110979E",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.959125,
+          43.3191577
+        ]
+      },
+      "id": "node/2247342798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2295557474",
+        "amenity": "school",
+        "name": "Lycée du Castella",
+        "ref:UAI": "0090015T",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 04/2014",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6089791,
+          43.114814
+        ]
+      },
+      "id": "node/2295557474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2384006748",
+        "amenity": "school",
+        "fax": "+33466328924",
+        "name": "Lycée professionnel - LEGTPA de la Lozère - Site Louis Pasteur",
+        "operator:type": "public",
+        "phone": "+33466328354",
+        "ref:UAI": "0480513X",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.2234345,
+          44.429611
+        ]
+      },
+      "id": "node/2384006748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2399852213",
+        "amenity": "school",
+        "name": "Section d'enseignement général et technologique du Lycée professionnel Anne Veaute",
+        "operator:type": "public",
+        "ref:UAI": "0811280B",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2345225,
+          43.6021856
+        ]
+      },
+      "id": "node/2399852213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2425303908",
+        "amenity": "school",
+        "contact:website": "http://www.lyceefrancoismarty.org",
+        "name": "Lycée Agricole Francois Marty",
+        "operator:type": "private",
+        "ref:UAI": "0120867C",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9962588,
+          44.2706218
+        ]
+      },
+      "id": "node/2425303908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2439254036",
+        "amenity": "school",
+        "name": "Lycée général et technologique Roumanille",
+        "ref:UAI": "0260017C",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1388594,
+          44.3638338
+        ]
+      },
+      "id": "node/2439254036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2441899923",
+        "amenity": "school",
+        "name": "Lycée technologique privé De La Salle - Castres",
+        "operator:type": "private",
+        "ref:UAI": "0811175M",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2351463,
+          43.607871
+        ]
+      },
+      "id": "node/2441899923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460171507",
+        "amenity": "school",
+        "name": "École secondaire privée La Clarté-Dieu",
+        "operator:type": "private",
+        "ref:UAI": "0110840D",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0495514,
+          43.1962413
+        ]
+      },
+      "id": "node/2460171507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2512682827",
+        "amenity": "school",
+        "name": "École professionnelle privée d'Esthétique",
+        "operator:type": "private",
+        "ref:UAI": "0110981G",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0074731,
+          43.1821842
+        ]
+      },
+      "id": "node/2512682827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2617130107",
+        "amenity": "school",
+        "name": "Lycée général privé Marie PILA",
+        "operator:type": "private",
+        "ref:UAI": "0840078D",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012",
+        "source:name": "http://mariepila-carpentras.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0456768,
+          44.052342
+        ]
+      },
+      "id": "node/2617130107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2617130113",
+        "amenity": "school",
+        "name": "Lycée polyvalent Jean Henri Fabre",
+        "ref:UAI": "0840015K",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0573541,
+          44.0586747
+        ]
+      },
+      "id": "node/2617130113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2617130118",
+        "amenity": "school",
+        "name": "Section d'enseignement professionnel du Lycée polyvalent Jean Henri Fabre",
+        "ref:UAI": "0840954F",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0574583,
+          44.058341
+        ]
+      },
+      "id": "node/2617130118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2723368456",
+        "amenity": "school",
+        "contact:email": "lt-sainte-cecile-albi@ac-toulouse.fr",
+        "contact:website": "http://www.lycee-sainte-cecile.com/",
+        "fixme": "a replacer sur le bon batiement",
+        "name": "Lycée professionnel Sainte-Cécile",
+        "operator:type": "private",
+        "ref:UAI": "0811070Y",
+        "school:FR": "lycée",
+        "source": "survey2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1476847,
+          43.9437489
+        ]
+      },
+      "id": "node/2723368456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2723368467",
+        "addr:housenumber": "1",
+        "addr:street": "Avenue du Breuil",
+        "amenity": "school",
+        "building": "school",
+        "contact:email": "lt-sainte-cecile-albi@ac-toulouse.fr",
+        "contact:website": "http://www.lycee-sainte-cecile.com/",
+        "fixme": "a replacer sur le bon batiement",
+        "name": "Lycée technique Sainte-Cécile",
+        "operator:type": "private",
+        "ref:UAI": "0810095N",
+        "school:FR": "lycée",
+        "source": "survey2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1474957,
+          43.9440398
+        ]
+      },
+      "id": "node/2723368467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2723602119",
+        "amenity": "school",
+        "fixme": "a mieux placer en connaissance",
+        "name": "Lycée Amboise",
+        "operator:type": "private",
+        "ref:UAI": "0810068J",
+        "school:FR": "lycée",
+        "source": "Répertoire National des Établissements"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1440761,
+          43.9224783
+        ]
+      },
+      "id": "node/2723602119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2858033663",
+        "amenity": "school",
+        "contact:website": "http://jean-vigo.entmip.fr/",
+        "name": "Lycée général et technologique Jean Vigo",
+        "operator:type": "public",
+        "ref:UAI": "0120012Y",
+        "school:FR": "lycée",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.056268,
+          44.0937711
+        ]
+      },
+      "id": "node/2858033663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2858033664",
+        "amenity": "school",
+        "contact:website": "http://jean-vigo.entmip.fr/",
+        "name": "Lycée professionnel Jean Vigo",
+        "operator:type": "public",
+        "ref:UAI": "0120014A",
+        "school:FR": "lycée",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0551791,
+          44.0942265
+        ]
+      },
+      "id": "node/2858033664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2932523635",
+        "amenity": "school",
+        "name": "Lycée polyvalent Alphonse Benoit",
+        "ref:UAI": "0840021S",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0466158,
+          43.9205286
+        ]
+      },
+      "id": "node/2932523635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3138307632",
+        "amenity": "school",
+        "name": "Lycée technologique privé Saint-Jean",
+        "operator:type": "private",
+        "ref:UAI": "0132922F",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0820332,
+          43.6408888
+        ]
+      },
+      "id": "node/3138307632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3215730161",
+        "amenity": "school",
+        "fax": "+33468114998",
+        "name": "Lycée professionnel privé Saint-Louis - Site de Saint-François",
+        "operator:type": "private",
+        "phone": "+33468114997",
+        "ref:UAI": "0110053Y",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale, de la Jeunesse et de la Vie associative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3495879,
+          43.2098395
+        ]
+      },
+      "id": "node/3215730161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3226528097",
+        "amenity": "school",
+        "name": "Lycée technologique Georges Frèche",
+        "operator:type": "public",
+        "phone": "+33467130505",
+        "ref:UAI": "0342225J",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education Nationale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9121621,
+          43.6049989
+        ]
+      },
+      "id": "node/3226528097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3226602477",
+        "amenity": "school",
+        "fax": "+33467206007",
+        "name": "Lycée professionnel Jean Mermoz",
+        "operator:type": "public",
+        "phone": "+33467206000",
+        "ref:UAI": "0340087K",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8905126,
+          43.6112928
+        ]
+      },
+      "id": "node/3226602477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3234426469",
+        "amenity": "school",
+        "fax": "+33468873361",
+        "name": "Lycée général et technologique Déodat de Séverac",
+        "operator:type": "public",
+        "phone": "+33468871085",
+        "ref:UAI": "0660004W",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7527058,
+          42.4851403
+        ]
+      },
+      "id": "node/3234426469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3234426471",
+        "amenity": "school",
+        "fax": "+33468873361",
+        "name": "Lycée professionnel Déodat de Séverac",
+        "operator:type": "public",
+        "phone": "+33468871085",
+        "ref:UAI": "0660787X",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7529864,
+          42.4848307
+        ]
+      },
+      "id": "node/3234426471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3234426472",
+        "amenity": "school",
+        "fax": "+33467544964",
+        "name": "Lycée professionnel Nevers",
+        "operator:type": "private",
+        "phone": "+33467635575",
+        "ref:UAI": "0341757A",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8701367,
+          43.6210292
+        ]
+      },
+      "id": "node/3234426472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3255253061",
+        "amenity": "school",
+        "fax": "+33466294411",
+        "name": "Lycée général et technologique Ernest Hemingway",
+        "operator:type": "public",
+        "phone": "+33466049373",
+        "ref:UAI": "0300027S",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3530118,
+          43.8254018
+        ]
+      },
+      "id": "node/3255253061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3255253062",
+        "amenity": "school",
+        "fax": "+33466294411",
+        "name": "Lycée professionnel Ernest Hemingway",
+        "operator:type": "public",
+        "phone": "+33466049373",
+        "ref:UAI": "0301659R",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3528481,
+          43.8246084
+        ]
+      },
+      "id": "node/3255253062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3255380561",
+        "amenity": "school",
+        "fax": "+33467835529",
+        "name": "Lycée général et technologique Louis Feuillade",
+        "operator:type": "public",
+        "phone": "+33467835100",
+        "ref:UAI": "0340030Y",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.1212787,
+          43.6705858
+        ]
+      },
+      "id": "node/3255380561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3255380562",
+        "amenity": "school",
+        "fax": "+33467835103",
+        "name": "Lycée professionnel Louis Feuillade",
+        "operator:type": "public",
+        "phone": "+33467835100",
+        "ref:UAI": "0341827B",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.1233826,
+          43.6713139
+        ]
+      },
+      "id": "node/3255380562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3255505564",
+        "amenity": "school",
+        "fax": "+33467103399",
+        "name": "Lycée professionnel Jules Guesde",
+        "operator:type": "public",
+        "phone": "+33467103370",
+        "ref:UAI": "0341829D",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.848645,
+          43.6125568
+        ]
+      },
+      "id": "node/3255505564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3256728261",
+        "amenity": "school",
+        "fax": "+33467355894",
+        "name": "Lycée général et technologique Jean Moulin",
+        "operator:type": "public",
+        "phone": "+33467355935",
+        "ref:UAI": "0340011C",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.2340544,
+          43.3419445
+        ]
+      },
+      "id": "node/3256728261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3256728262",
+        "amenity": "school",
+        "fax": "+33467355891",
+        "name": "Lycée professionnel Jean Moulin",
+        "operator:type": "public",
+        "phone": "+33467355935",
+        "ref:UAI": "0340013E",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Éducation Nationale",
+        "website": "http://www.citescolairejeanmoulinbeziers.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.2354533,
+          43.3411242
+        ]
+      },
+      "id": "node/3256728262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3258325087",
+        "amenity": "school",
+        "contact:website": "http://raymond-savignac.entmip.fr/",
+        "fixme": "a mieux place au lieu de l'enseignement dans le batiement",
+        "name": "Lycée Général et Technologique Raymond Savignac",
+        "operator:type": "public",
+        "ref:UAI": "0120031U",
+        "school:FR": "lycée",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.037211,
+          44.3557428
+        ]
+      },
+      "id": "node/3258325087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3258325088",
+        "amenity": "school",
+        "contact:website": "http://raymond-savignac.entmip.fr/",
+        "fixme": "a mieux place au lieu de l'enseignement dans le batiement",
+        "name": "Lycée Professionnel Raymond Savignac",
+        "operator:type": "public",
+        "ref:UAI": "0121157T",
+        "school:FR": "lycée",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0372699,
+          44.3562377
+        ]
+      },
+      "id": "node/3258325088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3317014762",
+        "amenity": "school",
+        "fax": "+33499583341",
+        "name": "Lycée général et technologique Saint-Joseph Pierre Rouge",
+        "operator:type": "private",
+        "phone": "+33499583340",
+        "ref:UAI": "0341521U",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Éducation Nationale",
+        "website": "http://www.pierrerouge.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8718727,
+          43.6790798
+        ]
+      },
+      "id": "node/3317014762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3345477438",
+        "addr:housenumber": "21",
+        "addr:street": "Boulevard d'Estourmel",
+        "amenity": "school",
+        "description": "Annex Lycée François d'Estaing",
+        "school:FR": "lycée",
+        "source": "knowlage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5736128,
+          44.3536611
+        ]
+      },
+      "id": "node/3345477438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3346049793",
+        "amenity": "school",
+        "fax": "+33467980749",
+        "name": "Lycée général et technologique Jean Moulin",
+        "operator:type": "public",
+        "phone": "+33467981155",
+        "ref:UAI": "0340059E",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Éducation Nationale",
+        "website": "http://www.lyc-moulin-pezenas.ac-montpellier.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.4160097,
+          43.4584684
+        ]
+      },
+      "id": "node/3346049793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3437325077",
+        "amenity": "school",
+        "fax": "+33499583341",
+        "name": "Lycée professionnel Saint-Joseph Pierre Rouge",
+        "operator:type": "private",
+        "phone": "+33499583340",
+        "ref:UAI": "0342249K",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8721816,
+          43.6785862
+        ]
+      },
+      "id": "node/3437325077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3437747785",
+        "amenity": "school",
+        "fax": "+33467104201",
+        "name": "Lycée professionnel Turgot",
+        "operator:type": "private",
+        "phone": "+33467104200",
+        "ref:UAI": "0340920R",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8329623,
+          43.6375911
+        ]
+      },
+      "id": "node/3437747785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3437747786",
+        "amenity": "school",
+        "fax": "+33467104201",
+        "name": "Section générale et technologique Turgot",
+        "operator:type": "private",
+        "phone": "+33467104200",
+        "ref:UAI": "0341975M",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Education nationale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8326787,
+          43.6374586
+        ]
+      },
+      "id": "node/3437747786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3581986394",
+        "amenity": "school",
+        "name": "Lycée professionnel Jean Durroux",
+        "ref:UAI": "0090003E",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6171898,
+          42.9488709
+        ]
+      },
+      "id": "node/3581986394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3715554988",
+        "amenity": "school",
+        "fax": "+33466590917",
+        "name": "Lycée Polyvalent Privé Saint-Roman d'Alzon",
+        "operator:type": "private",
+        "phone": "+33466592662",
+        "ref:UAI": "0301499S",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Éducation Nationale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6434452,
+          43.8087143
+        ]
+      },
+      "id": "node/3715554988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3740078666",
+        "amenity": "school",
+        "name": "Lycée professionnel Adam de Craponne",
+        "ref:UAI": "0131709M",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0982593,
+          43.6354109
+        ]
+      },
+      "id": "node/3740078666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780907970",
+        "amenity": "school",
+        "fax": "+33466238544",
+        "name": "Lycée professionnel Gaston Darboux",
+        "operator:type": "public",
+        "phone": "+33466629030",
+        "ref:UAI": "0300057Z",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Éducation Nationale",
+        "website": "http://www.lyc-darboux-nimes.ac-montpellier.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3282935,
+          43.8194069
+        ]
+      },
+      "id": "node/3780907970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780910862",
+        "amenity": "school",
+        "fax": "+33466288290",
+        "name": "Lycée professionnel Jules Raimu",
+        "operator:type": "public",
+        "phone": "+33466642033",
+        "ref:UAI": "0301270T",
+        "school:FR": "lycée",
+        "source": "Ministère de l'Éducation Nationale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3293883,
+          43.8194685
+        ]
+      },
+      "id": "node/3780910862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3802880474",
+        "amenity": "school",
+        "name": "École technique privée Beauté et Coiffure",
+        "operator:type": "private",
+        "ref:UAI": "0110063J",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 04/2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0021252,
+          43.1814684
+        ]
+      },
+      "id": "node/3802880474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3931944702",
+        "amenity": "school",
+        "name": "Section d'Enseignement Professionnel, Lycée Polyvalent Albert Einstein",
+        "ref:UAI": "0300951W",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 04/2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.610104,
+          44.1646778
+        ]
+      },
+      "id": "node/3931944702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3944849038",
+        "amenity": "school",
+        "name": "Lycée polyvalent privé Montalembert Les Maristes",
+        "operator:type": "private",
+        "ref:UAI": "0311138U",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 04/2014",
+        "website": "http://www.montalembert-lm.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4712093,
+          43.5757081
+        ]
+      },
+      "id": "node/3944849038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3944849039",
+        "amenity": "school",
+        "name": "Section Professionnelle du Lycée Polyvalent Privé Montalembert",
+        "operator:type": "private",
+        "ref:UAI": "0312309S",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 04/2014",
+        "website": "http://www.montalembert-lm.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4706605,
+          43.576028
+        ]
+      },
+      "id": "node/3944849039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3945104277",
+        "amenity": "school",
+        "name": "Etablissement d'enseignement secondaire et technique privé Montpellier Hérault Sport Club",
+        "operator:type": "private",
+        "ref:UAI": "0341672H",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 04/2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9294699,
+          43.616826
+        ]
+      },
+      "id": "node/3945104277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3950858463",
+        "amenity": "school",
+        "name": "Section d'enseignement général et technologique du Lycée professionnel Jules Ferry",
+        "ref:UAI": "0341938X",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 04/2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8426155,
+          43.6052493
+        ]
+      },
+      "id": "node/3950858463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3993175577",
+        "amenity": "school",
+        "fax": "+33467186664",
+        "name": "Lycée Professionnel Irène et Frédéric Joliot-Curie",
+        "phone": "+33467186666",
+        "ref:UAI": "0340088L",
+        "school:FR": "lycée",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6664904,
+          43.3964013
+        ]
+      },
+      "id": "node/3993175577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4504038737",
+        "amenity": "school",
+        "name": "Lycée privé Saint-Paul",
+        "operator:type": "private",
+        "ref:UAI": "0342298N",
+        "school:FR": "lycée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.4310333,
+          43.6258267
+        ]
+      },
+      "id": "node/4504038737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4522342359",
+        "amenity": "school",
+        "name": "Section d'Enseignement Général et Technologique du Lycée Professionnel Privé Les Jacobins",
+        "operator:type": "private",
+        "ref:UAI": "0090686X",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 05/2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6131569,
+          43.1145933
+        ]
+      },
+      "id": "node/4522342359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4522342360",
+        "amenity": "school",
+        "name": "Lycée professionnel privé Les Jacobins",
+        "operator:type": "private",
+        "ref:UAI": "0090045A",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 05/2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6130994,
+          43.1146231
+        ]
+      },
+      "id": "node/4522342360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5027166565",
+        "amenity": "school",
+        "name": "Lycée professionnel privé Jeanne d'Arc",
+        "operator:type": "private",
+        "ref:UAI": "0133274N",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 05/2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6428656,
+          43.6744065
+        ]
+      },
+      "id": "node/5027166565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035138059",
+        "amenity": "school",
+        "name": "Lycée professionnel Charles Privat",
+        "ref:UAI": "0130171R",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 05/2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6265192,
+          43.6700865
+        ]
+      },
+      "id": "node/5035138059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5050804717",
+        "addr:city": "Toulouse",
+        "addr:housenumber": "44",
+        "addr:postcode": "31079",
+        "addr:street": "Chemin Cassaing",
+        "amenity": "school",
+        "name": "Lycée professionnel Stéphane Hessel",
+        "ref:UAI": "0310091F",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 05/2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4768635,
+          43.6157895
+        ]
+      },
+      "id": "node/5050804717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5050804718",
+        "addr:city": "Toulouse",
+        "addr:housenumber": "44",
+        "addr:postcode": "31079",
+        "addr:street": "Chemin Cassaing",
+        "amenity": "school",
+        "name": "Lycée général et technologique Stéphane Hessel",
+        "ref:UAI": "0311902Z",
+        "school:FR": "lycée",
+        "source": "data.gouv.fr:Éducation Nationale - 05/2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4757901,
+          43.6159408
+        ]
+      },
+      "id": "node/5050804718"
+    }
+  ]
+}

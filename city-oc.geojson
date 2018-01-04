@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-01-03T09:15:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26686585",
+        "addr:postcode": "30000;30900",
+        "capital": "6",
+        "name": "Nîmes",
+        "name:ca": "Nimes",
+        "name:el": "Νιμ",
+        "name:hu": "Nîmes",
+        "name:ja": "ニーム_",
+        "name:la": "Nemausus",
+        "name:lt": "Nimas",
+        "name:oc": "Nimes",
+        "name:ru": "Ним",
+        "name:sr": "Ним",
+        "name:uk": "Нім",
+        "place": "city",
+        "population": "142205",
+        "ref:FR:SIREN": "213001894",
+        "ref:INSEE": "30189",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q42807",
+        "wikipedia": "fr:Nîmes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3600687,
+          43.8374249
+        ]
+      },
+      "id": "node/26686585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/65442261",
+        "capital": "6",
+        "name": "Montpellier",
+        "name:ar": "مونبيلييه",
+        "name:bg": "Монпелие",
+        "name:ca": "Montpeller",
+        "name:el": "Μονπελιέ",
+        "name:fa": "مون‌پلیه",
+        "name:fr": "Montpellier",
+        "name:frp": "Montpelyiér",
+        "name:he": "מונפלייה",
+        "name:ja": "モンペリエ",
+        "name:ko": "몽펠리에",
+        "name:la": "Monspessulanus",
+        "name:lt": "Monpeljė",
+        "name:oc": "Montpelhièr",
+        "name:ru": "Монпелье",
+        "name:sr": "Монпеље",
+        "name:uk": "Монпельє",
+        "name:zh": "蒙彼利埃",
+        "note": "avertissement -> addr:postcode34000;34070;34080;34090 créer un boundary pour chaque code",
+        "place": "city",
+        "population": "276054",
+        "ref:INSEE": "34172",
+        "source:population": "INSEE 2013",
+        "website": "http://www.montpellier.fr/",
+        "wikidata": "Q6441",
+        "wikipedia": "fr:Montpellier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8767337,
+          43.6112422
+        ]
+      },
+      "id": "node/65442261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1664142674",
+        "addr:postcode": "66000",
+        "capital": "6",
+        "ele": "30",
+        "is_in:iso_3166_2": "FR-66",
+        "name": "Perpignan",
+        "name:an": "Perpiñán",
+        "name:ar": "بيربينيا",
+        "name:be": "Перпіньян",
+        "name:bg": "Перпинян",
+        "name:br": "Perpinyà",
+        "name:ca": "Perpinyà",
+        "name:el": "Περπινιάν",
+        "name:eo": "Perpinjano",
+        "name:es": "Perpiñán",
+        "name:eu": "Perpinyà",
+        "name:ext": "Perpiñán",
+        "name:fa": "پرپینیان",
+        "name:fr": "Perpignan",
+        "name:gl": "Perpiñán",
+        "name:he": "פרפיניאן",
+        "name:hi": "पेर्पिञां",
+        "name:ia": "Perpinia",
+        "name:it": "Perpignano",
+        "name:ja": "ペルピニャン",
+        "name:kk": "Перпиньян",
+        "name:ko": "페르피냥",
+        "name:la": "Perpinianum",
+        "name:lt": "Perpinjanas",
+        "name:lv": "Perpiņāna",
+        "name:mzn": "پرپینان",
+        "name:oc": "Perpinhan",
+        "name:os": "Перпиньян",
+        "name:pnb": "پرپگناں",
+        "name:pt": "Perpinhã",
+        "name:ru": "Перпиньян",
+        "name:sr": "Перпињан",
+        "name:uk": "Перпіньян",
+        "name:ur": "پرپینیا",
+        "name:wuu": "班合比让",
+        "name:yi": "פערפיניאן",
+        "name:yue": "佩皮尼昂",
+        "name:zh": "佩皮尼昂",
+        "place": "city",
+        "population": "117419",
+        "ref:FR:SIREN": "216601369",
+        "ref:INSEE": "66136",
+        "source:population": "INSEE 2013",
+        "website": "http://www.mairie-perpignan.fr/",
+        "wikidata": "Q6730",
+        "wikipedia": "fr:Perpignan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8844713,
+          42.6953868
+        ]
+      },
+      "id": "node/1664142674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1836027948",
+        "capital": "6",
+        "name": "Avignon",
+        "name:el": "Αβινιόν",
+        "name:es": "Aviñón",
+        "name:fr": "Avignon",
+        "name:hu": "Avignon",
+        "name:it": "Avignone",
+        "name:ja": "アヴィニョン",
+        "name:lt": "Avinjonas",
+        "name:oc": "Avinhon",
+        "name:pt": "Avinhão",
+        "name:ru": "Авиньон",
+        "place": "city",
+        "population": "89683",
+        "postal_code": "84000",
+        "ref:INSEE": "84007",
+        "source:population": "INSEE 2013",
+        "wikidata": "Q6397",
+        "wikipedia": "fr:Avignon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8060329,
+          43.9493143
+        ]
+      },
+      "id": "node/1836027948"
+    }
+  ]
+}
